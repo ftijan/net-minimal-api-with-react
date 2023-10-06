@@ -27,7 +27,7 @@ function PizzaList({ name, data, onCreate, onUpdate, onDelete, error}) {
         setEditingId(item.id);
         setFormData({
             id: item.id,
-            name: item, name,
+            name: item.name,
             description: item.description,
         });
     };
